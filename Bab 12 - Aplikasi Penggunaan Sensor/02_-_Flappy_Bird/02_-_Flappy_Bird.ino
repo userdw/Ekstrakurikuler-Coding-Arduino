@@ -1,20 +1,10 @@
-/**
-   Nano Bird - a flappy bird clone for arduino nano, oled screen & push on switch
-
-   Based on the original code found here: https://kotaku.com/it-only-takes-17-lines-of-code-to-clone-flappy-bird-1678240994
-
-   @author  Richard Allsebrook <richardathome@gmail.com>
-*/
-
-// Include the libraries we need to communicate with the display
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-// Initialise the display
-#define SCREEN_WIDTH 128 // OLED display width, in pixels
-#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+#define SCREEN_WIDTH 128 
+#define SCREEN_HEIGHT 64 
 
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
 #define OLED_RESET    -1 // Reset pin # (or -1 if sharing Arduino reset pin)
